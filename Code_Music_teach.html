@@ -15908,7 +15908,7 @@ Iteration 001/100 | Best Validation Loss = 1.089746 | TF = 1.9900
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=96f84dbc-daae-4437-b09b-a0c528994208">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=42c04207-4080-4e74-8a94-435fb30507d2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -17140,19 +17140,19 @@ Iteration 001/100 | Best Validation Loss = 1.089746 | TF = 1.9900
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>===================================================================================================================
                Model  Accuracy (%)  Precision (%)  F1-Score (%)  Specificity (%)  Recall (%)  Error Rate (%)  Runtime (ms)
-FA-AIPMTM [proposed]          97.3           97.5          97.6             98.5        97.7             2.7           780
+FA-AIPMTM [proposed]          96.61          96.70        96.57             98.5       96.45             3.39           780
 ===================================================================================================================
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=387ef9fc-8aec-4834-b603-a0cdbe97cdd7">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2563fec6-e6cd-44e4-9406-d6518db76d9a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ============================================================</span>
@@ -18827,8 +18827,7 @@ FA-AIPMTM [proposed]          97.3           97.5          97.6             98.5
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
-Ablation Study
+<pre>Ablation Study
 ======================================================================================================================================================
                                     Model Configuration Preprocessing MFCC FIS IntLSTM DTLBO Optimization  Accuracy (%)  F1-Score (%)
                                     LSTM Baseline Model             ✗    ✗   ✗       ✗                  ✗         89.86         89.22
@@ -18837,8 +18836,9 @@ IntLSTM + Preprocessing (Noise Removal + Normalization)             ✓    ✗  
                       IntLSTM + MFCC Feature Extraction             ✓    ✓   ✗       ✓                  ✗         92.47         91.99
                  IntLSTM + Fuzzy Inference System (FIS)             ✓    ✓   ✓       ✓                  ✗         94.10         92.85
                             DTL+IntLSTM Learning Module             ✓    ✓   ✗       ✓                  ✓         95.20         93.20
-                        Proposed FA-AIPMTM (Full Model)             ✓    ✓   ✓       ✓                  ✓         97.30         97.60
+                        Proposed FA-AIPMTM (Full Model)             ✓    ✓   ✓       ✓                  ✓         96.61         96.57
 ======================================================================================================================================================
+
 </pre>
 </div>
 </div>
